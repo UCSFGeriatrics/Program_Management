@@ -1,0 +1,58 @@
+#language = python
+#last updated: 1.20.2020
+#created by Sarah Ngo, questions? reach out to Sarah.Ngo@ucsf.edu
+#use this python script to generate random assignments of applicants to reviewer
+#modules needed: pretty table, to install, use: pip install https://pypi.python.org/packages/source/P/PrettyTable/prettytable-0.7.2.tar.bz2
+#libraries needed: random
+
+from random import choice
+
+#import list of applicants from .txt files
+applicants = []
+file = open("applicants.txt", "r")
+applicants = file.read().splitlines()
+print("The list of applicants are:", applicants)
+
+#start list of reviewers
+reviewerA = []
+reviewerB = []
+reviewerC = []
+reviewerD = []
+reviewerE = []
+
+Assignments = []
+
+#each reviewer will be assigned 3 applicants. After assignment the randomly selected
+#applicant name will be removed from the larger applicant pool to avoid duplication
+
+while len(reviewerE) < 3:
+  applicantA = choice(applicants)
+  reviewerA.append(applicantA)x
+  applicants.remove(applicantA)
+  
+  applicantB = choice(applicants)
+  reviewerB.append(applicantB)
+  applicants.remove(applicantB)
+  
+  applicantC = choice(applicants)
+  reviewerC.append(applicantC)
+  applicants.remove(applicantC)
+
+  applicantD = choice(applicants)
+  reviewerD.append(applicantD)
+  applicants.remove(applicantD)
+  
+  applicantE = choice(applicants)
+  reviewerE.append(applicantE)
+  applicants.remove(applicantE)
+  
+from prettytable import PrettyTable
+x = PrettyTable()
+x.field_names = ["Reviewer", "Assigned Applicants"]
+x.add_row(["ReviewerA", reviewerA])
+x.add_row(["ReviewerB", reviewerB])
+x.add_row(["ReviewerC", reviewerC])
+x.add_row(["ReviewerD", reviewerD])
+x.add_row(["ReviewerE", reviewerE])
+
+print(x)
