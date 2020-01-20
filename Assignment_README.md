@@ -1,9 +1,9 @@
-# Program_Management
+# Program Management
 scripts to assist with Program Management
 
 
-# Applicant Assignment
-[link to code]: (../blob/master/applicant_assignment)
+## Applicant Assignment
+[link to code](https://github.com/UCSFGeriatrics/Program_Management/blob/master/applicant_assignment)
 
 This is to assign a list of applicants to a set number of reviewers using python. 
 
