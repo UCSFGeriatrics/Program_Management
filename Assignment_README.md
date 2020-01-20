@@ -6,7 +6,7 @@ This is to assign a list of applicants to a set number of reviewers using python
 
 The output for the code provided appears as follows:
 
-///
+```
 
 The list of applicants are: ['Harry', 'Hermione', 'Ron', 'Ginny', 'Luna', 'Neville', 
 'Fred', 'George', 'Myrtle', 'Olaf', 'Elsa', 'Anna', 'Kristoff', 'Marshmallow', 'Snow Boogies']
@@ -21,4 +21,4 @@ The list of applicants are: ['Harry', 'Hermione', 'Ron', 'Ginny', 'Luna', 'Nevil
 | ReviewerE |       ['Fred', 'Elsa', 'Ginny']        |
 +-----------+----------------------------------------+
 
-///
+```
