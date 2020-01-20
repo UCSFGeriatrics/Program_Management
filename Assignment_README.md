@@ -1,7 +1,10 @@
 # Program_Management
-scripts to assist with Program Management, ie: application assignment to a set number of reviewers
+scripts to assist with Program Management
+
 
 # Applicant Assignment
+[link to code]: (../blob/master/applicant_assignment)
+
 This is to assign a list of applicants to a set number of reviewers using python. 
 
 The output for the code provided appears as follows:
