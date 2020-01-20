@@ -5,9 +5,11 @@ scripts to assist with Program Management
 ## Applicant Assignment
 [link to code](https://github.com/UCSFGeriatrics/Program_Management/blob/master/applicant_assignment)
 
-This is to assign a list of applicants to a set number of reviewers using python. 
+This is to assign a list of applicants to a set number of reviewers using python. The list of applicants is pulled from the text tile [applicants.txt](https://github.com/UCSFGeriatrics/Program_Management/blob/master/applicants.txt)
 
-The output for the code provided appears as follows:
+The number of applicants needs to be a multiple of number of reviewers for this to work.
+
+The output for the code provided will appear as follows:
 
 ```
 
